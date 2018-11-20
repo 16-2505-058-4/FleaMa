@@ -39,7 +39,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/item3" /> //noub
+                app:srcCompat="@drawable/item3" /> //noubn
             <ImageButton
                 android:id="@+id/button4"
                 android:layout_width="match_parent"
