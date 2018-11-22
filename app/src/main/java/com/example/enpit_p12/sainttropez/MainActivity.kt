@@ -20,6 +20,10 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, buyctivity::class.java)
         startActivity(intent)
     }
+    fun onLoginButtonTapped(view: View?){
+        val intent = Intent(this, LoginActivity::class.java)
+        startActivity(intent)
+    }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.main, menu)
@@ -39,11 +43,6 @@ class MainActivity : AppCompatActivity() {
             }
             R.id.sell -> {
                 val intent = Intent(this, SellActivity::class.java)
-                startActivity(intent)
-                return true
-            }
-            R.id.history  -> {
-                val intent = Intent(this, HistoryActivity::class.java)
                 startActivity(intent)
                 return true
             }

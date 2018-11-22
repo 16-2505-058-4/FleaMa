@@ -1,35 +1,27 @@
 {
   "project_info": {
-    "project_number": "519164383725",
-    "firebase_url": "https://fleamadate.firebaseio.com",
-    "project_id": "fleamadate",
-    "storage_bucket": "fleamadate.appspot.com"
+    "project_number": "257711045115",
+    "firebase_url": "https://fleamaa-fe7ce.firebaseio.com",
+    "project_id": "fleamaa-fe7ce",
+    "storage_bucket": "fleamaa-fe7ce.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:519164383725:android:ad54b544e599d5a2",
+        "mobilesdk_app_id": "1:257711045115:android:ad54b544e599d5a2",
         "android_client_info": {
           "package_name": "com.example.enpit_p12.sainttropez"
         }
       },
       "oauth_client": [
         {
-          "client_id": "519164383725-ud4eu8nfvfku7miasmq5i724accntmmp.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.enpit_p12.sainttropez",
-            "certificate_hash": "a0e1ccbb17b787b7846788729d91eb38e034b151"
-          }
-        },
-        {
-          "client_id": "519164383725-ilvnb4cqspgdb2poteccv9bdcphuuulb.apps.googleusercontent.com",
+          "client_id": "257711045115-ubc8vlvtmj523dj6pgm9dgmfh79i1qg3.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAtSrtvEOywEfKhM-riJFw0l2R561oQZ5w"
+          "current_key": "AIzaSyATGBp7-LOSmcQigld3r0ruxPiBuww8nSM"
         }
       ],
       "services": {
@@ -37,13 +29,8 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "519164383725-ilvnb4cqspgdb2poteccv9bdcphuuulb.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2
