@@ -4,4 +4,6 @@
     <color name="colorPrimaryDark">#111112</color>
     <color name="colorAccent">#ff4081</color>
     <color name="colorSinUp">#40ff6d</color>
+    <color name="colorUnderBottonOnchick">#1dbfbf</color>
+    <color name="colorUnderBotton">#fafafa</color>
 </resources>

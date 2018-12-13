@@ -6,19 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".SellActivity">
 
-    <EditText
-        android:id="@+id/editText5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="8dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="値段"
-        app:layout_constraintBottom_toTopOf="@+id/imageView5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+
 
     <EditText
         android:id="@+id/editText3"
@@ -47,15 +35,27 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText3" />
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="値段"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText4" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="152dp"
+        android:layout_marginBottom="244dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/item2" />
 
@@ -70,5 +70,67 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="787dp">
+
+        <Button
+            android:id="@+id/icon1"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="@color/colorUnderBotton"
+            android:text="ホーム"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:onClick="onMainButtonTapped"
+            android:drawableTop="@drawable/ic_home_black_24dpin"
+            android:padding="21dp"
+            android:gravity="center_vertical|center"
+/>
+
+        <Button
+            android:id="@+id/icon2"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="@color/colorUnderBotton"
+            android:text="出品"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/colorUnderBottonOnchick"
+            android:drawableTop="@drawable/ic_add_black_24dp"
+            android:drawableTint="@color/colorUnderBottonOnchick"
+            android:padding="21dp"
+            android:gravity="center_vertical|center"
+/>
+        <Button
+            android:id="@+id/icon3"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="@color/colorUnderBotton"
+            android:text="履歴"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:drawableTop="@drawable/ic_shopping_basket_black_24dp"
+            android:padding="21dp"
+            android:gravity="center_vertical|center" />
+        <Button
+            android:id="@+id/icon4"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="@color/colorUnderBotton"
+            android:text="チャット"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:drawableTop="@drawable/ic_message_black_24dp"
+            android:padding="21dp"
+            android:gravity="center_vertical|center" />
+
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
