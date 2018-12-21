@@ -6,4 +6,6 @@
     <color name="colorSinUp">#40ff6d</color>
     <color name="colorUnderBottonOnchick">#1dbfbf</color>
     <color name="colorUnderBotton">#fafafa</color>
+    <color name="colorBar">#ffffff</color>
+    <color name="colorBar1">#e21818</color>
 </resources>

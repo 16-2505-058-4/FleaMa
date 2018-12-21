@@ -45,7 +45,7 @@
         android:weightSum="2">
 
         <EditText
-            android:id="@+id/login"
+            android:id="@+id/email_edittext_login"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_margin="8dp"
@@ -54,11 +54,11 @@
             android:drawableLeft="@drawable/ic_action_user"
             android:ems="10"
             android:background="@color/colorUnderBotton"
-            android:inputType="numberSigned"
+            android:inputType="textEmailAddress"
             android:text="ID" />
 
         <EditText
-            android:id="@+id/pas2"
+            android:id="@+id/password_edittext_login"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_margin="8dp"
@@ -69,7 +69,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPassword"
-            android:text="password" />
+            android:text="123456" />
 
 
     </LinearLayout>
@@ -84,7 +84,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button10"
+            android:id="@+id/login_button_login"
             android:layout_width="155dp"
             android:layout_height="wrap_content"
             android:layout_margin="12dp"
@@ -94,13 +94,15 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/button11"
+            android:id="@+id/back_to_register_textview"
             android:layout_width="155dp"
             android:layout_height="wrap_content"
             android:layout_margin="12dp"
+            android:onClick="onMainButtonNew"
             android:background="@color/colorPrimary"
             android:text="新規"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            />
     </LinearLayout>
 
 

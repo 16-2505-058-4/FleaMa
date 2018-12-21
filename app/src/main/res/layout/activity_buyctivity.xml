@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="383dp"
-        android:layout_height="234dp"
+        android:layout_width="557dp"
+        android:layout_height="443dp"
 
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,10 +23,11 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="247dp"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
         android:text="■ 品質／ 構造部材：鋼 クッション材：ウレタンフォーム・ポリエステルわた ワッフル・ファブリック張り材：ポリエステル100％、レザー調張り材：合成皮革 ■ サイズ(幅×奥行×高さ／約cm)／ 115～148×60～70×60(座面高30) ■ 生産国／中国 ※脚のみお客様取付 "
+        android:textSize="34dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
@@ -35,8 +36,8 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="200dp"
-        android:layout_height="60dp"
+        android:layout_width="208dp"
+        android:layout_height="82dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"

@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "257711045115",
-    "firebase_url": "https://fleamaa-fe7ce.firebaseio.com",
-    "project_id": "fleamaa-fe7ce",
-    "storage_bucket": "fleamaa-fe7ce.appspot.com"
+    "project_number": "860967863250",
+    "firebase_url": "https://project-1459436719353009053.firebaseio.com",
+    "project_id": "project-1459436719353009053",
+    "storage_bucket": "project-1459436719353009053.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:257711045115:android:ad54b544e599d5a2",
+        "mobilesdk_app_id": "1:860967863250:android:ad54b544e599d5a2",
         "android_client_info": {
           "package_name": "com.example.enpit_p12.sainttropez"
         }
       },
       "oauth_client": [
         {
-          "client_id": "257711045115-ubc8vlvtmj523dj6pgm9dgmfh79i1qg3.apps.googleusercontent.com",
+          "client_id": "860967863250-o1op4odp8lldvg6chv8vhfi1rmr9ij1e.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyATGBp7-LOSmcQigld3r0ruxPiBuww8nSM"
+          "current_key": "AIzaSyB8Fw9wIFCHZTMqppVLYCQbPah7_ujD9Vw"
         }
       ],
       "services": {

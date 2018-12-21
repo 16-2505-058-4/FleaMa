@@ -25,26 +25,78 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="48dp"
         android:text="　　2018/8/8　
    3000円で購入"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
         app:layout_constraintTop_toTopOf="parent" />
-    <android.support.design.widget.BottomNavigationView
-        android:id="@+id/main"
-
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="52dp"
-        android:layout_alignParentBottom="true"
-        android:background="?android:attr/windowBackground"
-        android:backgroundTint="@color/material_blue_grey_800"
-        android:visibility="visible"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:menu="@menu/main" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="787dp">
+
+        <Button
+            android:id="@+id/icon1"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="@color/colorUnderBotton"
+            android:text="ホーム"
+            android:textStyle="bold"
+            android:textSize="25dp"
+             android:onClick="onMainButtonTapped"
+            android:drawableTop="@drawable/ic_home_black_24dpin"
+            android:padding="9dp"
+            android:gravity="center_vertical|center"
+         />
+
+        <Button
+            android:id="@+id/icon2"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="@color/colorUnderBotton"
+            android:text="出品"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:onClick="onMainButtonSell"
+            android:drawableTop="@drawable/ic_add_black_24dp"
+            android:padding="9dp"
+            android:gravity="center_vertical|center" />
+        <Button
+            android:id="@+id/icon3"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="@color/colorUnderBotton"
+            android:text="履歴"
+            android:textStyle="bold"
+            android:onClick="onMainButtonHistory"
+            android:textColor="@color/colorUnderBottonOnchick"
+            android:textSize="25dp"
+            android:drawableTop="@drawable/ic_shopping_basket_black_24dp"
+            android:padding="9dp"
+            android:drawableTint="@color/colorUnderBottonOnchick"
+            android:gravity="center_vertical|center" />
+        <Button
+            android:id="@+id/icon4"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="@color/colorUnderBotton"
+            android:text="チャット"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:onClick="onMainButtonChat"
+            android:drawableTop="@drawable/ic_message_black_24dp"
+            android:padding="9dp"
+            android:gravity="center_vertical|center" />
+
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

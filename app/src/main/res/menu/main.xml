@@ -3,16 +3,11 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/sell"
-        android:icon="@drawable/ic_add_black_24dp"
-        android:title="ログイン" />
-    <item
-        android:id="@+id/history"
-        android:icon="@drawable/ic_shopping_basket_black_24dp"
-        android:title="履歴" />
-    <item
-        android:id="@+id/top"
-        android:icon="@drawable/ic_home_black_24dpin"
-    android:title="トップ" />
+        android:title="Search"
+        android:id="@+id/menu_search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        />
 
 </menu>

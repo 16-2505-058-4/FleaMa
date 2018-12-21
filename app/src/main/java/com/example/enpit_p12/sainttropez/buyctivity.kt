@@ -18,33 +18,6 @@ class buyctivity : AppCompatActivity() {
         val intent = Intent(this, BuydecideActivity::class.java)
         startActivity(intent)
     }
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.main,menu)
-        return true
-    }
-    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
-        when(item?.itemId){
-            R.id.top -> {
-                val intent = Intent(this, MainActivity::class.java)
-                startActivity(intent)
-                return true
-            }
-            R.id.log -> {
-                val intent = Intent(this, LoginActivity::class.java)
-                startActivity(intent)
-                return true
-            }
-            R.id.sell -> {
-                val intent = Intent(this, SellActivity::class.java)
-                startActivity(intent)
-                return true
-            }
-            R.id.history -> {
-                val intent = Intent(this, HistoryActivity::class.java)
-                startActivity(intent)
-                return true
-            }
-        }
-        return super.onContextItemSelected(item)
-    }
+
+
 }
